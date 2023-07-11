@@ -1,0 +1,15 @@
+name: JustPass
+version: '${project.version}'
+main: me.fortibrine.justpass.JustPass
+api-version: 1.16
+
+commands:
+  genpass:
+    description: "Сделать паспорт игроку"
+    usage: "§7/genpass [Никнейм]"
+
+permissions:
+  justpass.*:
+    default: op
+  justpass.genpass:
+    default: op

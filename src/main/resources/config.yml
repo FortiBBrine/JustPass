@@ -1,0 +1,10 @@
+author: "Мэрия"
+title: 'Паспорт %player_name%'
+
+messages:
+  offline: "§7Игрок офлайн"
+
+book:
+  - "Имя: %player_displayname%\n
+Никнейм: %player_name%\n
+Время выдачи: %localtime_time%"
