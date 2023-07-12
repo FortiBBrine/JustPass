@@ -3,6 +3,8 @@ version: '${project.version}'
 main: me.fortibrine.justpass.JustPass
 api-version: 1.16
 
+softdepend: [PlaceholderAPI]
+
 commands:
   genpass:
     description: "Сделать паспорт игроку"
